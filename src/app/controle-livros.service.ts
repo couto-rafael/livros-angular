@@ -1,11 +1,10 @@
 import { Injectable } from '@angular/core';
-import { Editora } from './editora'; //Importar Editora
 import Livro from './livro';
 
 @Injectable({
   providedIn: 'root',
 })
-export class ControleLivroService {
+export class ControleLivrosService {
   private livros: Array<Livro>;
 
   constructor() {
