@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Editora } from './editora';
-import { Livro } from './livro';
-import { ControleEditoraService } from './controle-editora.service';
-import { ControleLivrosService } from './controle-livros.service';
+import { Editora } from '../editora';
+import { Livro } from '../livro';
+import { ControleEditoraService } from '../controle-editora.service';
+import { ControleLivrosService } from '../controle-livros.service';
 
 @Component({
   selector: 'app-livro-lista',
